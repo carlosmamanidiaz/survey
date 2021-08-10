@@ -33,17 +33,41 @@ ques3 = "Do you have an IT team?"
 opts3 = {"A": "Yes", "B": "No"}
 get_answer(ques3, opts3)
 
-ques4 = "Do you have a Data Security team?"
+ques4 = "Does your IT team have knowledge of server and database maintenance?"
 opts4 = {"A": "Yes", "B": "No"}
 get_answer(ques4, opts4)
 
-ques5 = "How much is your budget?"
-opts5 = {"A": "Low", "B": "Medium", "C": "High"}
+ques5 = "Do you have a Data Security team?"
+opts5 = {"A": "Yes", "B": "No"}
 get_answer(ques5, opts5)
 
-ques6 = "How much is your budget?"
-opts6 = {"A": "Low", "B": "Medium", "C": "High"}
+ques6 = "Is the scalability of your database an important factor for your application?"
+opts6 = {"A": "Yes", "B": "No"}
 get_answer(ques6, opts6)
+
+ques7 = "Is the storage capacity too high?"
+opts7 = {"A": "Yes", "B": "No"}
+
+get_answer(ques7, opts7)
+
+ques8 = 'Does the application need your data to be more than 99.99% available?'
+opts8 = {"A": "Yes", "B": "No"}
+
+get_answer(ques8, opts8)
+
+ques9 = 'Does the application need 99.99% performance?'
+opts9 = {"A": "Yes", "B": "No"}
+
+get_answer(ques9, opts9)
+
+ques10 = 'Data needs to be quickly accessible from anywhere in the world?'
+opts10 = {"A": "Yes", "B": "No"}
+
+get_answer(ques10, opts10)
+
+
+#Tree decision
+
 
 
 print(questions)

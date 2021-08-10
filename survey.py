@@ -65,10 +65,66 @@ opts10 = {"A": "Yes", "B": "No"}
 
 get_answer(ques10, opts10)
 
-
+local = 0
+cloud = 0
 #Tree decision
+if answers[0] == 'Yes':
+	cloud += 1
+elif answers[0] == 'No':
+	local += 1
+
+if answers[1] == 'Low':
+	local += 1
+elif answers[1] == 'High':
+	cloud += 1
+
+if answers[2] == 'Yes':
+	local += 1
+elif answers[2] == 'No':
+	cloud += 1
+
+if answers[3] == 'Yes':
+	local += 1
+elif answers[3] == 'No':
+	cloud += 1
+
+if answers[4] == 'Yes':
+	local += 1
+elif answers[4] == 'No':
+	cloud += 1
+
+if answers[5] == 'Yes':
+	cloud += 1
+elif answers[5] == 'No':
+	local += 1
+
+if answers[6] == 'Yes':
+	cloud += 1
+elif answers[6] == 'No':
+	local += 1
+
+if answers[7] == 'Yes':
+	cloud += 1
+elif answers[7] == 'No':
+	local += 1
+
+if answers[8] == 'Yes':
+	cloud += 1
+elif answers[8] == 'No':
+	local += 1
+
+if answers[9] == 'Yes':
+	cloud += 1
+elif answers[9] == 'No':
+	local += 1
 
 
+if cloud > local:
+	print("You need cloud")
+elif cloud < local:
+	print("You need local")
+else:
+	print("Da igual xd")
 
 print(questions)
 print(answers)
